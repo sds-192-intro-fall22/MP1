@@ -17,11 +17,11 @@ In this mini-project, you will create at least two data visualizations of variab
 ## Set up your environment
 
 1. In RStudio, `File` > `New Project` > `Version Control` > `Git` and then copy the URL to this repo. Open `scorecard_analysis.qmd` and add your group member's names to the header (lines 5, 7, and 9). 
-2. You should have alread installed the `rscorecard` package in lab 1. If for some reason it is not installed. Install the `rscorecard` package by entering the following in your console: 
+2. You should have already installed the `rscorecard` package in lab 1. If for some reason it is not installed. Install the `rscorecard` package by entering the following in your console: 
 
 `install.packages("rscorecard")`
 
-3. If you still have access to your API key from lab 1, copy this API key into line 33 of `scorecard_analysis.qmd`. Run that code chunk. If you don't have that key, navigate [here](https://api.data.gov/signup/) to sign up for an API key through Data.gov. After you enter your name and email, the API key will be emailed to you. 
+3. If you still have access to your API key from lab 1, copy this API key into line 31 of `scorecard_analysis.qmd`. Run that code chunk. If you don't have that key, navigate [here](https://api.data.gov/signup/) to sign up for an API key through Data.gov. After you enter your name and email, the API key will be emailed to you. 
 
 ## Get to know the scorecard data
 
@@ -31,13 +31,15 @@ In this mini-project, you will create at least two data visualizations of variab
 
 ## Import and prepare data
 
-6. On line 40 of `scorecard_analysis.qmd`, add the list of variable names (from column 6 in the data dictionary) as additional arguments to the `sc_select()` function. *Note that you should supply these names in lowercase.* Run the code chunk. 
-7. Check out the data frame, and note columns with many missing values. If you've selected variables other than the variables that we used in lab 1 and the values are missing in more than 25% of rows, return to the data dictionary and select new columns. Re-run the code. 
-8. Recode your ordinal variable in the code chunk starting at line 44. Be sure to reference lab 1 for help with this!
+6. On line 38 of `scorecard_analysis.qmd`, add the list of variable names (from column 6 in the data dictionary) as additional arguments to the `sc_select()` function. *Note that you should supply these names in lowercase.* Run the code chunk. 
+7. Check out the data frame, and note columns with many missing values. **If you've selected variables other than the variables that we used in lab 1 and the values are missing in more than 25% of rows, return to the data dictionary and select new columns.** Re-run the code. 
+8. Recode your ordinal variable in the code chunk starting at line 43. Be sure to reference lab 1 for help with this!
 
 ## Design two data visualizations
 
-9. Create two data visualizations showcasing the findings. At least one plot should visualize distributions and/or frequencies. You may select how you would like to design the second plot. However, there should be a clear relationship between the two plots. Be sure to label your plots with all five required components. Add a caption to both plots explaining how you've mapped values onto different plot aesthetics. 
+9. As a group, devise a question about the state of MA colleges in 2018 that you would like to answer with your data. Your question should be concise and should be a question that can be answered with the data available to you. Avoid questions that require predictive analysis or analysis of variables that not represented in this dataset. 
+
+10. Create two data visualizations showcasing that help address your question. At least one plot should visualize distributions and/or frequencies. You may select how you would like to design the second plot. However, both plots should be clearly related to the question you've asked. Be sure to label your plots with all five required components of context. Add a caption to both plots explaining how you've mapped values onto different plot aesthetics. 
 
 ## Write blog post
 
@@ -61,7 +63,7 @@ In this mini-project, you will create at least two data visualizations of variab
 You will be evaluated on the extent to which your mini-project demonstrates fluency in the following course learning dimensions:
 
 * Understanding Datasets
- * 1 point - Demonstrates an ability to interpet data dictionaries
+ * 1 point - Demonstrates an ability to interpret data dictionaries
  * 1 point - Demonstrates an ability to recognize different types of variables
  * 1 point - Demonstrates an ability to detail the provenance of a dataset (how the data was produced) in writing
 * Visualization Aesthetics

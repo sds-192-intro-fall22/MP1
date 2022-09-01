@@ -9,11 +9,10 @@ author:
 - name: Author Three
   affiliation: Smith College
 date: "`r format(Sys.Date(), '%B %e, %Y')`"
+editor: 
+  mode: source
 output: 
   html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
     fig_width: 7
     fig_height: 6
     fig_caption: true
@@ -23,10 +22,6 @@ output:
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(
-  message = FALSE,
-  echo = TRUE
-)
 library(tidyverse)
 library(rscorecard)
 
@@ -35,32 +30,23 @@ sc_key("FILL API KEY HERE")
 
 ```{r import}
 scorecard <- sc_init() %>%
-  sc_year(2021) %>%                 #Note how we are looking at only 2021 data here!
+  sc_year(2018) %>%                 #Note how we are looking at only 2018 data here!
   sc_filter(stabbr == "MA") %>%     #Note how we are looking at only Massachusetts data here!
   sc_select(unitid, instnm) %>%
   sc_get()
 ```
 
-```{r factor}
-# Example code below.
-# scorecard$control_factored <- factor(scorecard$control, 
-#                                      levels = c(1, 2, 3, 4),
-#                                      labels = c("Public", 
-#                                                 "Private nonprofit", 
-#                                                 "Private for-profit", 
-#                                                 "Foreign"))
-
-# Enter your code to factor your variable here. 
-
+```{r recode}
+# Enter your code to recode your variable here. 
 ```
 
-# Univariate plot
+# Plot 1
 
 ```{r plot_1}
 # Create plot 1 here
 ```
 
-# Multivariate plot
+# Plot 2
 
 ```{r plot_2}
 # Create plot 2 here

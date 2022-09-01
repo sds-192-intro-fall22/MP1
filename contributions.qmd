@@ -1,5 +1,5 @@
 ---
-title: "SDS 192 Mini-Project 1 Standards"
+title: "SDS 192 Mini-Project 1 Contributions"
 subtitle: "SDS 192"
 author: 
 - name: Author One
@@ -9,11 +9,10 @@ author:
 - name: Author Three
   affiliation: Smith College
 date: "`r format(Sys.Date(), '%B %e, %Y')`"
+source:
+  mode: editor
 output: 
   html_document:
-    toc: true
-    toc_depth: 2
-    toc_float: true
     fig_width: 7
     fig_height: 6
     fig_caption: true
@@ -23,32 +22,14 @@ output:
 ---
 
 
-# Tracing Data Provenance 
+# Group Member 1
 
 Fill response here...
 
-# Data Fundamentals
+# Group Member 2
 
 Fill response here...
 
-# Univariate Plotting
+# Group Member 3
 
 Fill response here...
-
-# Visualization Aesthetics
-
-Fill response here...
-
-# Visualization Context 
-
-Fill response here...
-
-# Multivariate Plotting
-
-Fill response here...
-
-# Error Resolution and Problem-Solving
-
-Fill response here...
-
-
