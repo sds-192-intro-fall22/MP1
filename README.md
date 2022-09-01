@@ -67,7 +67,7 @@ You will be evaluated on the extent to which your mini-project demonstrates flue
   * 1 point - Demonstrates an ability to recognize different types of variables
   * 1 point - Demonstrates an ability to detail the provenance of a dataset (how the data was produced) in writing
 * Visualization Aesthetics
-  * 1 point - Demonstrates an ability to map variables onto appropriate plot aeshetics
+  * 1 point - Demonstrates an ability to map variables onto appropriate plot aesthetics
   * 1 point - Demonstrates an ability to adjust the scales of plot aesthetics
   * 1 point - Demonstrates an ability to address overplotting
 * Plotting Frequencies and Distributions
