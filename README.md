@@ -62,17 +62,17 @@ In this mini-project, you will create at least two data visualizations of variab
 
 You will be evaluated on the extent to which your mini-project demonstrates fluency in the following course learning dimensions:
 
-* Understanding Datasets
- * 1 point - Demonstrates an ability to interpret data dictionaries
- * 1 point - Demonstrates an ability to recognize different types of variables
- * 1 point - Demonstrates an ability to detail the provenance of a dataset (how the data was produced) in writing
+* Understanding Datasets:
+  * 1 point - Demonstrates an ability to interpret data dictionaries
+  * 1 point - Demonstrates an ability to recognize different types of variables
+  * 1 point - Demonstrates an ability to detail the provenance of a dataset (how the data was produced) in writing
 * Visualization Aesthetics
- * 1 point - Demonstrates an ability to map variables onto appropriate plot aeshetics
- * 1 point - Demonstrates an ability to adjust the scales of plot aesthetics
- * 1 point - Demonstrates an ability to address overplotting
+  * 1 point - Demonstrates an ability to map variables onto appropriate plot aeshetics
+  * 1 point - Demonstrates an ability to adjust the scales of plot aesthetics
+  * 1 point - Demonstrates an ability to address overplotting
 * Plotting Frequencies and Distributions
- * 1 point - Demonstrates an ability to represent statistical information on a plot
- * 1 point - Demonstrates an ability to accurately label plots with all five required pieces of context
- * 1 point - Demonstrates an ability to accurately summarize and interpret plot findings in writing
+  * 1 point - Demonstrates an ability to represent statistical information on a plot
+  * 1 point - Demonstrates an ability to accurately label plots with all five required pieces of context
+  * 1 point - Demonstrates an ability to accurately summarize and interpret plot findings in writing
   
 
