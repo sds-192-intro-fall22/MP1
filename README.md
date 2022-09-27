@@ -39,7 +39,7 @@ In this mini-project, you will create at least two data visualizations of variab
 
 9. As a group, devise a question about the state of MA colleges in 2018 that you would like to answer with your data. Your question should be concise and should be a question that can be answered with the data available to you. Avoid questions that require predictive analysis or analysis of variables that not represented in this dataset. 
 
-10. Create two data visualizations showcasing that help address your question. At least one plot should visualize distributions and/or frequencies. You may select how you would like to design the second plot. However, both plots should be clearly related to the question you've asked. Be sure to label your plots with all five required components of context. Add a caption to both plots explaining how you've mapped values onto different plot aesthetics. 
+10. Create two data visualizations showcasing that help address your question. At least one plot should visualize distributions and/or frequencies. You may select how you would like to design the second plot. However, both plots should be clearly related to the question you've asked. Be sure to label your plots with all five required components of context. Add a caption to both plots explaining how you've mapped values onto different plot aesthetics.
 
 ## Write blog post
 
